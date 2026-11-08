@@ -1,0 +1,50 @@
+# PlatformIO & VS Code
+.pio/
+.vscode/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Thesis documents, drafts, and loose thesis figures/scripts
+*.docx
+*.html
+*.svg
+*.png
+*.pdf
+*.mp4
+*.rar
+*.zip
+*.msi
+*.exe
+diagramas_flujo_jammer.md
+convert_video.py
+fetch_images2.ps1
+
+# Non-essential / external directories
+pluto/
+Hardware/
+ScreenSaver/
+espectrometro/
+pruebas BER/
+**/.history/
+**/_restore_backup_*/
+**/*-backups/
+
+# Old scratch files in include/
+include/main copy*.txt
+
+# KiCad temporary & backup files
+PCB/Automote_Library/
+PCB/Kicad_Plugins/
+PCB/**/*.bak
+PCB/**/*.dsn
+*.lck
+~*.lck
+fp-info-cache
+
+# Unused 3D STEP models
+3D/12VDC_Connector_Female.STEP
+3D/MINI SWITCH.step
